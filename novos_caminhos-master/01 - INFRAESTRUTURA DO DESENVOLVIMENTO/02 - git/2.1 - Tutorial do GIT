@@ -14,12 +14,13 @@ TUTORIAL DO GIT
      (✔ ) Verificar instalação do git: git --version
      (✔) Configurar user name: git config --global user.name "Iury Gomes de Oliveira"
      (✔) Configurar email: git config --global user.email "seu_email@email.com.br"
+     () Git list: git config --list
      (✔) Configurar colorização: git config --global color.ui true
 
 (✔) 4 - CRIANDO O PRIMEIRO REPOSITORIO
-     (✔) git init
-     (✔) acessando a pasta .git
-     (✔) criando um arquivo de teste: touch index.php
+     () git init
+     () acessando a pasta .git
+     () criando um arquivo de teste: touch index.php
 
 (✔) 5 - ENTENDENDO OS ESTÁGIOS DO GIT
      (✔) untracked files: git status (Arquivos sem controles de versão)
