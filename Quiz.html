@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Atividade de Formulário</title>
+    </head>
+    <body>
+        <form action="resposta.php" method="POST">
+            <p>
+                Nome:
+                <input
+                    type="text"
+                    name="nome"
+                    required
+                    placeholder="Nome Completo"
+                />
+            </p>
+            <p>Data que ingressou curso: <input type="date" name="data"/></p>
+            <p>
+                Selecione o curso do IF
+            <select name="disciplina">
+               <option value= "Sistemas para Internet">Si</option> 
+               <option value= "Gestur">Gestur</option> 
+               <option value= "Ledoc">Ledoc</option>           
+            </p>
+            <p>
+                Gostou da aula de hoje?<br />
+                <input type="radio" name="gostou" value="sim" checked />
+                Sim<br />
+                <input type="radio" name="gostou" value="comcerteza" /> Com
+                Certeza<br />
+            </p>
+    </body>
+</html>

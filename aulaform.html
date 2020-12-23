@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+    </head>
+    <body>
+        <form action="pagina.php" method="POST">
+            <p>
+                NOME:
+                <input
+                    type="text"
+                    name="nome"
+                    required
+                    placeholder="Nome Completo"
+                />
+            </p>
+            <p>CPF: <input type="text" name="cpf" /></p>
+            <p>SENHA: <input type="password" name="senha" /></p>
+            <p>NASCIMENTO: <input type="date" name="data" /></p>
+            <p>
+                Qual a sua Linguagem preferida?<br />
+                <input type="checkbox" name="linguagem" value="html" />
+                HTML <br />
+                <input type="checkbox" name="linguagem" value="css" /> CSS<br />
+                <input type="checkbox" name="linguagem" value="jS" /> JavaScript
+            </p>
+            <p>
+                Gostou da aula de hoje?<br />
+                <input type="radio" name="gostou" value="sim" checked />
+                Sim<br />
+                <input type="radio" name="gostou" value="comcerteza" /> Com
+                Certeza<br />
+            </p>
+            <p>
+                Selecione a disciplina que mais gosta:
+                <select name="disciplina">
+                    <option value="Portugues">Portugues</option>
+                    <option value="Prog">Programação</option>
+                    <option value="ingles">Inglês</option>
+                </select>
+            </p>
+
+            <p>
+                Vou aprender Programação?<br />
+                <input type="radio" name="aprender" value="sim" /> Sim<br />
+                <input type="radio" name="aprender" value="comcerteza" /> Com
+                certeza
+            </p>
+            <p>
+                Observações:<br />
+                <textarea name="obs" cols="30" rows="5">Texto Inicial</textarea>
+            </p>
+            <input type="submit" value="Submeter" />
+        </form>
+    </body>
+</html>
